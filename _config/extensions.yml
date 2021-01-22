@@ -1,0 +1,5 @@
+---
+Name: lazycoders-elemental-extensions
+After:
+  - '#elemental'
+---
