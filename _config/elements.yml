@@ -3,8 +3,3 @@ Name: lazycoders-elemental-elements
 After:
   - '#lazycoders-elemental'
 ---
-
-LazyCoders\Elemental\ContentElement:
-  styles:
-    BasicContent:
-      label: 'Basic Content: Headline and body text'

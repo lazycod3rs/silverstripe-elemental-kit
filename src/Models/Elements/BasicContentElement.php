@@ -1,11 +1,11 @@
 <?php
-namespace LazyCoders\Elemental;
+namespace LazyCoders\Elemental\Elements;
 
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\FieldList;
 
-class ContentElement extends CoreElement{
-    private static $table_name = 'ContentElement';
+class BasicContentElement extends CoreElement{
+    private static $table_name = 'BasicContentElement';
 
     private static $db = [
         'Tagline' => 'Varchar(255)',
@@ -29,6 +29,6 @@ class ContentElement extends CoreElement{
 
     public function getType()
     {
-        return _t(__CLASS__ . '.BlockType', 'Content Element');
+        return _t(__CLASS__ . '.BlockType', 'Basic Content');
     }
 }

@@ -14,7 +14,7 @@ Page:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
   disallowed_elements:
     - DNADesign\Elemental\Models\ElementContent
-    - LazyCoders\Elemental\CoreElement
+    - LazyCoders\Elemental\Elements\CoreElement
 
 DNADesign\Elemental\Extensions\ElementalAreasExtension:
   keep_content_fields: true

@@ -1,5 +1,6 @@
 <?php
-namespace LazyCoders\Elemental;
+namespace LazyCoders\Elemental\Elements;
+
 use DNADesign\Elemental\Models\BaseElement;
 use SilverStripe\Dev\Debug;
 use SilverStripe\Forms\FieldList;
