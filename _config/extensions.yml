@@ -1,8 +1,12 @@
 ---
 Name: lazycoders-elemental-extensions
-After:
-  - '#lazycoders-elemental'
 ---
+Page:
+  extensions:
+    - LazyCoders\Elemental\Extensions\ElementalPageExtension
+  disallowed_elements:
+    - DNADesign\Elemental\Models\ElementContent
+    - LazyCoders\Elemental\Elements\CoreElement
 
 LazyCoders\Elemental\Elements\CoreElement:
   extensions:

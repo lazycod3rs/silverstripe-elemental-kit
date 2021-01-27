@@ -8,13 +8,5 @@ SilverStripe\Core\Manifest\ModuleManifest:
   module_priority:
     - lazycoders/silverstripe-elemental-kit
 
-
-Page:
-  extensions:
-    - LazyCoders\Elemental\Extensions\ElementalPageExtension
-  disallowed_elements:
-    - DNADesign\Elemental\Models\ElementContent
-    - LazyCoders\Elemental\Elements\CoreElement
-
 DNADesign\Elemental\Extensions\ElementalAreasExtension:
   keep_content_fields: true
