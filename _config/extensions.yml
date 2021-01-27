@@ -1,5 +1,9 @@
 ---
 Name: lazycoders-elemental-extensions
 After:
-  - '#elemental'
+  - '#lazycoders-elemental'
 ---
+
+LazyCoders\Elemental\Elements\CoreElement:
+  extensions:
+    - LazyCoders\Elemental\Extensions\CoreElementExtension

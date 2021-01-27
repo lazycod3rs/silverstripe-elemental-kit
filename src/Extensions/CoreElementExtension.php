@@ -1,10 +1,10 @@
 <?php
-namespace LazyCoders\Elemental\Elements;
+namespace LazyCoders\Elemental\Extensions;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\CMS\Model\SiteTree;
 
-class ElementalCmsEditLinkExtension extends DataExtension {
+class CoreElementExtension extends DataExtension {
 
     public function updateCMSEditLink(&$link): void
     {
