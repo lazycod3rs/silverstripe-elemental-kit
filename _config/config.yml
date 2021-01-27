@@ -12,7 +12,6 @@ SilverStripe\Core\Manifest\ModuleManifest:
 Page:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
-    - LazyCoders\Elemental\Extensions\ElementalTabExtension
   disallowed_elements:
     - DNADesign\Elemental\Models\ElementContent
     - LazyCoders\Elemental\Elements\CoreElement
