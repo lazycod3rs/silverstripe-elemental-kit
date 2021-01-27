@@ -7,6 +7,3 @@ After:
 SilverStripe\Core\Manifest\ModuleManifest:
   module_priority:
     - lazycoders/silverstripe-elemental-kit
-
-DNADesign\Elemental\Extensions\ElementalAreasExtension:
-  keep_content_fields: true

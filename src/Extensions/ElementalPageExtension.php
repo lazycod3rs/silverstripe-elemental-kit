@@ -12,6 +12,7 @@ class ElementalPageExtension extends BasePageExtension {
 
         $elemental_tab = $this->owner->config()->get('elemental_tab') ?? true;
         if ($elemental_tab) {
+            $fields->findTab('Root.Main')->setTitle('Primary');
             $this->addElementalFields($fields);
         }
         return $fields;
