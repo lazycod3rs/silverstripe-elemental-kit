@@ -14,6 +14,8 @@ class ElementalPageExtension extends BasePageExtension {
         if ($elemental_tab) {
             $fields->findTab('Root.Main')->setTitle('Primary');
             $this->addElementalFields($fields);
+        } elseif ($fields->hasTabSet('SEOFields_Container') && $fields->dataFieldByName('ElementalArea')) {
+            $fields->insertBefore('SEOFields_Container', $fields->dataFieldByName('ElementalArea'));
         }
         return $fields;
     }
